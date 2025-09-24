@@ -1,0 +1,27 @@
+# Entorno Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDEs y herramientas
+.idea/
+.vscode/
+*.code-workspace
+
+# Variables de entorno y credenciales
+.env
+config/*.json
+
+# Modelos y binarios pesados
+*.onnx
+!modelo/best.onnx  # si quieres versionarlo, considera Git LFS
+modelo/*.pt
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

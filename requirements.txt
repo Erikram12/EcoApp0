@@ -1,0 +1,8 @@
+# Dependencias para App0 (Raspberry Pi compatible)
+numpy
+opencv-python
+paho-mqtt
+pyscard
+firebase-admin
+ultralytics
+onnxruntime
